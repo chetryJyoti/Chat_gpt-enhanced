@@ -1,0 +1,52 @@
+.app_main {
+  text-align: center;
+  display: flex;
+  background-color: #343541;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.aside_msg {
+  width: 260px;
+  background-color: #202123;
+  
+}
+.chat_btn{
+  background-color: #202123;
+  color: white;
+  border: 1px solid white;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 7px;
+  text-align: start;
+}
+.chat_btn:hover{
+  background-color: hsla(240,9%,59%,.1);
+  color: white;
+  border: 1px solid white;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 7px;
+  text-align: start;
+}
+.chat_btn span{
+  margin-right: 6px;
+  font-size: larger;
+}
+.gpt_body{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gpt_intro{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
